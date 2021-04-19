@@ -1,0 +1,25 @@
+---- Rekursif (Rekursi / Recursion) ----
+"Adalah sebuah fungsi yang memanggil dirinya sendiri"
+
+Ilustrasinya:
+    * Kita memiliki sebuah input
+    * Input ini akan masuk kedalam sebuah function, dan function nya akan dijalankan
+      tetapi setelah dijalankan didalam functionnya itu ada baris code yang memanggil
+      dirinya sendiri, jadi didalam functionnya memanggil functionnya sendiri dan
+      begitu seterusnya, sampai suatu saat pemanggilannya berhenti
+    * Dan menghasilkan sebuah nilai (output)
+
+"Harus berakhir dan menghasilkan nilai"
+
+"Semua looping bisa dibuat rekursif, tapi tidak sebaliknya"
+
+---- Base Case ----
+"Kondisi akhir dari rekursif yang menghaslkan nilai"
+
+---- Implementasi Rekursif ----
+1. Menggantikan looping
+2. Fibonacci
+3. Pencarian dan penelusuran pada struktur data list tree
+4. Bahasa pemrograman yang tidak memiliki pengulangan
+    * Haskell, Erlang, Prolog, dll
+5. Dll

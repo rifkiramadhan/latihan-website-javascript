@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operator</title>
+</head>
+<body>
+
+    <h1>Javascript Operator</h1>
+    <p>Jalankan program melalui Inspect Element, dan lihat output pada tab Console</p>
+
+    <!-- My Script -->
+    <script>
+        // Operator Aritmatika (Operator matematika)
+        console.log(5 + 10);
+        console.log(10 / 5);
+        console.log(10 % 5);
+        console.log(10 % 3);
+
+        console.log("----");
+
+        // Operator Precedance (Urutan operasi matematika)
+        // Bukan KuKaBaTaKu () * / + -
+        console.log(1 + 2 * 3 - 4);
+        // Adalah KuKaBaTaKu () * / + -
+        console.log((1 + 2) * 3 -4);
+
+        console.log("----");
+
+        // Operator Penugasan (Assignment = )
+        /*
+        Masih banyak lagi Operator Penugasan
+        1. =
+        2. +=
+        3. *=
+        4. /=
+        5. %=
+        */
+        // Jika diclear console dan diketik x kembali maka console akan mengembalikan nilai x
+        console.log(x = 10);
+        console.log(x += 5);
+
+        console.log("----");
+
+        // Operator Perbandingan (Comparison)
+        console.log(10 == 10);
+        console.log(10 != 10);
+        console.log(10 != 15);
+        console.log(10 == "10");
+        console.log(10 === "10");
+
+        // Operator Logika (Logical)
+        /*
+        Symbolnya:
+        1. && (And)
+        2. || (Or)
+        3. ! (Not)
+        */
+        console.log(x = 5);
+        console.log((x % 2 == 0));
+        console.log(x = 12);
+        console.log(x % 2 == 0);
+        console.log((x % 2 == 0) && (x < 10));
+        console.log(x = 8);
+        console.log((x % 2 == 0) && (x < 10));
+        console.log((x % 2 == 0) || (x < 10));
+        console.log(x = 12);
+        console.log((x % 2 == 0) || (x < 10));
+        console.log(x = 10);
+        console.log((x < 20));
+        console.log(!(x < 20));
+
+        console.log("----");
+
+        // Operator String +
+        var a 
+        var b
+        a = "Apple"
+        b = "Pen"
+        console.log(a + " " + b);
+        
+        console.log(10 + "10");
+        console.log("10" + 10);
+        // Jika angka dengan angka, maka hasilnya juga angka
+        console.log(10 + 10 + "10");
+        // Jika salah satunya string, maka tanda plus berubah menjadi operator string
+        console.log("10" + 10 + 10);
+
+        console.log("----");
+
+        // Operator Typeof
+        /*
+        1. Menggunakan typeof(operand)
+        */
+
+        console.log(typeof(10));
+        console.log(typeof("10"));
+        console.log(typeof(true));
+
+        console.log("----");
+
+        // Operator Kondisional
+        /*
+        Jika benar, maka akan mengambil nilai setelah tanda tanya
+        Jika salah, maka akan mengambil nilai setelah titik dua
+        (kondisi) ? benar : salah
+        */
+
+        console.log((x % 2 == 0) ? "genap" : "ganjil");
+    </script>
+    
+</body>
+</html>

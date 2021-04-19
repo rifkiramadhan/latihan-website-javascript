@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipe Data</title>
+</head>
+<body>
+
+    <h1>Javascript Tipe Data</h1>
+    <p>Jalankan program melalui Inspect Element, dan lihat output pada tab Console</p>
+
+    <script>
+        // Tipe data String
+        /*
+        Tipe data String dalam javascript digunakan untuk
+        merepresentasikan data tekstual, sering disebut dengan
+        plain text.
+        */
+        
+        console.log("Rifki Ramadhan Petik dua");
+        console.log('Rifki Ramadhan Petik satu');
+        
+        // Contoh error:
+        // console.log('"Rifki Ramadhan" sholat pada setiap hari jum'at');
+        // console.log(""Rifki Ramadhan" sholat pada setiap hari jum'at");
+        // Maka dibutuhkan Escape Character
+        // Menambahkan tanda \" atau \' backslash sebelum tanda kutip
+        
+        // Jumatnya akan berfungsi kembali
+        console.log('"Rifki Ramadhan" sholat pada setiap hari jum\'at');
+        // Petik dua nya akan berfungsi kembali
+        console.log("\"Rifki Ramadhan\" sholat pada setiap hari jum'at");
+
+        // Jum'at nya akan berfungsi kembali
+        console.log('ini adalah hari jum\'at');
+        // Jum'at nya akan turun satu baris
+        console.log('ini adalah hari \n jum\'at');
+        // Jum'at nya akan turun dua baris
+        console.log('ini adalah hari \n\n jum\'at');
+        // Jum'at nya akan sedikit bergeser
+        console.log('ini adalah hari \t jum\'at');
+
+        // Contoh unicode menggunakan javascript
+        // Symbol copyright
+        console.log('\u00A9');
+        // Tren Mark (TM)
+        console.log('\u2122');
+
+        // Contoh Concanetation (Konkanetasi) / +
+        // .lenghth megnhitung jumlah karakter dalam satu baris termasuk space
+        console.log("Rifki Ramadhan".length);
+        // Menggunakan variable
+        var nama = "Rifki Ramadhan"
+        console.log(nama.length);
+
+        console.log("----");
+
+        // Tipe data boolean
+        /*
+        Sebuah tipe data yang digunakan untuk merepresentasikan logika true
+        atau false.
+        Biasanya digunakan pada statement pengkondisian, untuk menentukan aksi
+        yang berbeda dan mengatur alur kendali program.
+        */
+
+        // Contoh menggunakan variable
+        var x = 10;
+        console.log(x < 20);
+        // Contoh menggunakan String
+        console.log("\"Rifki Ramadhan" == "rifki ramadhan");
+
+        // Boolean(nilai)
+        // Kenapa true / false ?, karena javascript mengandung kata truthy | falsy
+        console.log(Boolean(10 < 20));
+        console.log(Boolean(10));
+        console.log(Boolean("rifki ramadhan"));
+        console.log(Boolean(0));
+        console.log(Boolean(-1));
+    </script>
+</body>
+</html>

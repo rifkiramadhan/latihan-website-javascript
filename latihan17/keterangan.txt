@@ -1,0 +1,76 @@
+---- Function ----
+Menurut Douglas Crockford:
+"Function adalah kunci utama pada javascript,
+yang membuat javascript sangat powerfull."
+
+"Function yang baik hanya mengerjakan 1 hal saja."
+
+1. Method
+2. Class
+3. Constructor
+4. Module
+
+Function:
+* Sebuah sub-program / sub-routine yang dapat 'dipanggil' di
+  bagian lain pada program
+* Merupakan struktur dasar pembentuk dari javascript
+* Disebut juga sebagai prosedur (kumpulan statement untuk melakukan
+  tugas atau menghitung sebuah nilai)
+* Untuk dapat menggunakannya, kita harus 'membuat' terlebih dahulu
+  function tersebut, lalu 'memanggil' nya
+* Termasuk kedalam First-Class Object
+
+Kenapa Function ?
+* Reusability (DRY : Do not Repeat Yourself)
+* Dekompoisi / Abstraksi
+* Modularitas
+
+Kategori Function:
+1. Build-in Function
+    * Fungsi yang sudah disediakan / 'dibuat' oleh javascript
+    * Kita tinggal 'memanggil'-nya saja.
+    * Contoh:
+        - alert();
+        - confirm();
+        - prompt();
+    * Dan masih banyak yang lain
+    * String
+        - charAt(), slice(), split(), toString(), toLowerCase(), toUppercase
+        - Link Referensi: https://www.w3schools.com/jsref/jsref_obj_string.asp
+    * Math
+        - sin(), cos(), tan(), random(), round(), floor(), ceil(), log()
+        - Link Referensi: https://www.w3schools.com/jsref/jsref_obj_math.asp
+2. User-Defined Function.
+    * Fungsi yang kita buat sendiri
+    * Menggunakan keyword function
+    * Nama Function (Optional)
+    * Paramenter / Argument
+        - Disimpan di dalam ()
+        - Boleh ada atau tidak, jika ada boleh lebih dari satu
+        - Dipisahkan oleh koma (,)
+    * Function body, 'dibungkus' dengan {}
+    * Dapat mengembalikan nilai (return value) atau tidak
+    * Cara membuatnya
+        - Dengan deklarasi / function declaration
+            A. function jumlahDuaBilangan(a,b) {
+                var total;
+                total = a + b;
+                
+                return total;
+            }
+            alert(jumlahDuaBilangan(1,2));
+
+        - Dengan ekspresi / function expression
+            A. var jumlahDuaBilangan = function(a,b) {
+                var total;
+                total = a + b;
+
+                return total;
+            }
+            alert(jumlahDuaBilangan(1,2));
+
+Kelebihan dari function:
+* Blok kode yang dibuat untuk melakukan tugas spesifik
+* Dapat dipanggil berulang kali
+* Memudahkan penelusuran
+* Reusability

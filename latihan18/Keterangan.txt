@@ -1,0 +1,59 @@
+---- Parameter ----
+"Variabel yang ditulis di dalam kurung pada saat function
+dibuat, digunakan untuk menampung nilai yang dikirimkan saat
+function dipanggil."
+
+---- Argument ----
+"Nilai yang dikirimkan ke paramenter saat fungsi dipanggil."
+
+Contoh Parameter * Argument:
+    * function tamba (a, b) {
+        return a + b;
+    }
+    var coba = tambah(5, 10);
+
+Bagaimana jika parameter dan argument nya tidak sesuai ?
+    * Jika paramter lebih sedikit dari argument, maka argument
+      kelebihannya akan diabaikan.
+        Contoh:
+            - function tambah(a, b) {
+                return a + b;
+            }
+            var coba = tambah(5, 10, 20);
+
+            - Maka angka 20 nya akan diabaikan
+
+    * Jika parameter lebih banyak dari argument, maka paramenter
+      kelebihannya akan diisi dengan nilai undefined.
+        Contoh:
+            - function(a, b, c) {
+                return a + b;
+            }
+            var coba = tambah(5, 10);
+
+            - Maka nilai dari parameter c adalah undefined
+
+
+---- Arguments ----
+"Array yang berisi nilai yang dikirimkan saat fungsi dipanggil."
+
+Contoh:
+    * function tambah(a, b) {
+                return a + b;
+    }
+    var coba = tambah(5, 10, 20);
+
+    * Maka angka 20 nya akan diabaikan
+
+    * Jika menggunakan array semua argument selain dikirim ke paramenter akan ditampung
+      kedalam sebuah variable argument study:
+        Contoh 1:
+            - tambah(5, 10, 20, "hi", false);
+            - arguments = [5, 10, 20, "hi", false];
+        
+        Contoh 2: 
+            - function tambah() {
+                return arguments;
+            }
+            var coba = tambah(5, 10, 20, "hi", false);
+            console.log(coba);

@@ -1,0 +1,33 @@
+-- Array pada Javascript --
+Menurut website https://en.wikipedia.org/wiki/Array:
+    "Susunan sistematis dari objek-objek yang serupa"
+
+Didalam dunia programming:
+    "Tipe data yang digunakan untuk mendeskripsikan kumpulan elemen (Nilai atau variabel),
+     yang tiap-tiap elemennya memiliki index"
+
+Artinya:
+    "Array adalah variabel yang lebih sakti, karena array bisa menampung lebih dari satu nilai"
+
+Contoh:
+    1. var hari = ['Senin','Selasa','Rabu'];
+    2. var mhs = ['Rifki','Ardian','Andri'];
+
+Kenapa menggunakan Array:
+    1. Mempermudah pengelolaan nilai/value/data
+        * Penelusuran dan Pencarian
+    2. Manajemen memori
+
+Karakteristik dari Array:
+    1. Variabel jamak, yang mempunyai banyak elemen dan diacu dengan nama yang sama
+    2. Kumpulan pasangan key dan nilai / key and value pair
+        * Key nya adalah index, dan value nya adalah elemennya
+    3. Key adalah index pada array dengan tipe integer yang dimulai dari 0
+    4. Array pada javascript bertipe object
+    5. Array pada javascript memiliki fungsi / method length untuk menghitung jumlah elemen di dalamnya
+    6. Elemen pada array boleh memiliki tipe data yang berbeda
+
+Manipulasi Array:
+    1. Menambah elemen pada array
+    2. Menghapus elemen pada array
+    3. Menampilkan seluruh isi Array

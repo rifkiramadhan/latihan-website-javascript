@@ -1,0 +1,34 @@
+-- Function Declaration --
+Contoh:
+    1. function identifier (Parameter optional) {FunctionBody}
+    2. function tampilPesan (nama) {
+        alert('halo' + nama);
+    }
+    tampilPesan('Rifki Ramadhan');
+    3. Ketika pemanggilan function nya dibalik maka akan tampil normal karena konsep Hoisting
+
+Perbedaan:
+    1. Lebih Fleksibel (Dapat ditulis dimanapun)
+        * Karena konsep Hoisting
+    2. Mudah dipahami pemula
+
+-- Function Expression --
+Contoh:
+    1. function identifier optional (Parameter optional) {FunctionBody}
+    2. var tampilPesan = function (nama) {
+        alert('halo' + nama);
+    }
+    tampilPesan('Rifki Ramadhan');
+    3. Ketika pemanggilan function nya dibalik maka tidak akan tampil (error)
+    4. Tuliskan terlebih dahulu definisinya kemudian dipanggil function nya
+
+Perbedaan:
+    1. Harus didefinisikan terlebih dahulu sebelum dipanggil
+    2. Lebih powerfull:
+        * Sebagai closure
+        * Sebagai argumen untuk function lain
+        * IIFE (Immediately Invoked Function Expression)
+
+Catatan: Ketika sudah bisa membuat function dengan "Function Declaration" silahkan coba
+         membuat function dengan "Function Expression"
+    

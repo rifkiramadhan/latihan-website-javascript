@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angka</title>
+</head>
+<body>
+    
+    <h1>Javascript Angka</h1>
+    <p>Jalankan program melalui Inspect Element, dan lihat output pada tab Console</p>
+
+    <script>
+        // Lihat hasil perhitungan ini pada javascript console
+        console.log(10);
+        console.log(2000);
+        console.log(123456);
+        console.log(999999999999999);
+        // Max 15 digit angka
+        console.log(9999999999999999);
+
+        console.log("----");
+
+        // Bilangan Pecahan
+        console.log(3.14);
+        console.log(20.00);
+        console.log(400.123123123);
+        console.log(0.3 + 0.7);
+        // Hasilnya tidak terlalu akurat
+        console.log(0.2 + 0.1);
+        // Eksponen
+        console.log(123e5);
+        console.log(123e-5);
+
+        // Jangan pernah menggunakan angka awalan 0 atau 0x pada javascript
+        // Akan dianggap sebagai bilangan oktal atau hexadesimal, bukan bilangan desimal
+        // Bilangan oktal
+        console.log(022);
+        // Bilangan hexadesimal
+        console.log(0xFF);
+
+        console.log("----");
+        
+        console.log(-100 / 0);
+        console.log(0 / 0);
+
+        // Jangan pernah menggunakan angka menggunakan tanda petik '' atau ""
+        // Akan diperoses sebagai angka bukan string
+        console.log(5 / "Rifki");
+        console.log(100 / "10");
+    </script>
+</body>
+</html>

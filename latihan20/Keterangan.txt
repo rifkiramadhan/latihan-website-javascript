@@ -1,0 +1,28 @@
+---- Scope ----
+"Bagaimana sebuah variabel dapat diakses dalam program."
+
+---- block scope vs. function scope ----
+
+Contoh scope C:
+    * int i = 2;
+    if(i % 2 == 0) {
+        bool genap = true;
+    }
+
+    if(genap) {
+        printf("Genap!");
+    }
+
+    *Hasilnya error, 'Genap!' is undeclared
+
+Contoh scope JavaScript:
+    * var i = 2;
+    if(i % 2 == 0) {
+        var genap = true;
+    }
+
+    if(genap) {
+        console.log('Genap!');
+    }
+
+    *Hasilnya Genap!, karena JavaScript tidak mengandung blok scope, tetapi menggunakan function scope
