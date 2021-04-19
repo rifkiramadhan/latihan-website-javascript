@@ -1,4 +1,4 @@
----- Source code latihan masih berlanjut ----
+---- Source Code JavaScript Console ----
 
 1. Link untuk memahami bahasa pemrograman: 
 	- http://carlcheo.com/startcoding
@@ -60,7 +60,7 @@
 1. Aritmatika
 2. Penugasan
 3. Perbandingan
-4. Logka
+4. Logika
 5. String
 
 Keterangan:
