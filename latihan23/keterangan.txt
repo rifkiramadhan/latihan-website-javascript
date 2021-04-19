@@ -31,3 +31,30 @@ Manipulasi Array:
     1. Menambah elemen pada array
     2. Menghapus elemen pada array
     3. Menampilkan seluruh isi Array
+
+Method Array:
+    1. length
+       - Untuk mengetahui berapa jumlah element yang ada pada array
+    2. join
+       - Untuk menggabungkan seluruh isi array dan mengubahnya menjadi sebuah string
+    3. push, pop, shift, unshift
+       - Keempat method ini digunakan untuk menambah atau menghapus elemen array
+       - push, mendorong masuk
+       - pop, memecahkan atau menghilangkan
+       - shift, menggeser keluar
+       - unshift, menggeser kedalam
+    4. slice, splice
+       - slice, seperti mengiris array, digunakan ketika ingin mengambil beberapa bagian pada array
+         untuk menjadi array yang baru
+       - splice, seperti menyambung atau menambal array, digunakan untuk menyisipkan sebeuah elemen
+         ditengah-tengah menggunakan splice
+    5. foreach, map
+       - Kedua method ini digunakan untuk melakukan looping pada array, tetapi foreach lebih keren
+         dari pada for biasa, dengan menggunakan kedua method ini bisa melakukan sesuatu pada elemen-elemen
+         yang ada didalam array secara automatice
+       - foreach, tidak mengembalikan array 
+       - map, mengembalikan array
+    6. filter, find
+       - Kedua method ini digunakan untuk mencari elemen pada array
+       - find, mengembalikan satu nilai
+       - filter, bisa mengembalikan banyak nilai

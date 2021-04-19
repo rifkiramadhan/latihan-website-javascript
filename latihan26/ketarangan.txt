@@ -1,0 +1,8 @@
+---- This ----
+Pengertian:
+    - This adalah sebuah keyword spesial yang secara automatice di definisikan pada
+      setiap function
+
+Catatan:
+    - Agar tidak membingungkan, selalu diingat kembali apa yang dikembalikan oleh keyword this
+      ketika memanggil function atau object dengan cara yang berbeda
